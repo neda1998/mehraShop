@@ -260,7 +260,7 @@ ul {
 .img-flower {
   position: absolute;
   color: #fff;
-  padding: 32px;
+  padding: 12px 32px;
 }
 
 .text-flower-main {
@@ -268,7 +268,7 @@ ul {
 }
 
 .kala-text {
-  padding: 15px 0;
+  padding: 5px 0;
   max-width: 45%;
 }
 
@@ -335,5 +335,35 @@ ul {
 }
 
 /* sidebar */
+
+/* choose item */
+
+.choose-items {
+  margin: 93px 0;
+}
+
+.img-choose {
+  margin-left: 27px;
+}
+
+.img-choose > img {
+  width: 94px;
+}
+
+.choose-text-item h6{
+  font-weight: bolder;
+}
+
+.para-choose span {
+  font-size: 13px;
+  color: #4F4F4F;
+}
+
+.para-choose-2 {
+  margin-top: 24px;
+}
+
+/* choose item */
+
 
 /* main */
