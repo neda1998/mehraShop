@@ -1,0 +1,144 @@
+@media screen and (max-width: 1400px) {
+  .dropdown-strech-header {
+    padding: 6px 14px 0 0;
+  }
+
+  /* .category-filter-main {
+    padding: 0 12px 0 80px;
+} */
+}
+
+/* @media screen and (max-width:1390px) {
+    .category-filter-book {
+        padding: 0 20px 0 23px;
+    }
+} */
+
+@media screen and (max-width: 1199px) {
+  /* .category-filter-main {
+        padding: 0 9px 0 35px;
+    }
+
+    .category-filter-book {
+        padding: 0 6px 0 0px;
+    } */
+}
+
+@media screen and (max-width: 994px) {
+  .header {
+    display: none;
+  }
+
+  .menu-header {
+    display: block;
+    margin: 20px 0;
+  }
+
+  #nav-mobile {
+    transform: translateX(1000px);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.7s;
+    background-color: #fff;
+    padding: 0 61px 36px;
+  }
+
+  #nav-mobile.move {
+    transform: translateX(0);position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 5px 9px 2px #d4cdcd;
+  }
+
+  .icon-header {
+    margin-top: 26px;
+  }
+
+  .category {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #nav-mobile {
+position: absolute;
+  }
+  .distance-bottom {
+    margin-bottom: 34px;
+  }
+
+  .mobile-margin {
+    margin-top: 30px;
+  }
+
+  .kala-text span {
+    font-size: 16px;
+  }
+
+  .img-flower {
+    padding: 4px 32px;
+  }
+
+  .fruit-box {
+    position: absolute;
+    padding: 7px;
+  }
+
+  .txt-box {
+    font-weight: 600;
+    font-size: 13px;
+  }
+
+  .images-box-main {
+    margin-bottom: 44px;
+  }
+
+  .img-footer {
+    margin-top: 95px;
+  }
+  .footer-bottom {
+    flex-wrap: wrap;margin: 0;
+}
+
+.input-footer {
+    margin: 0;
+}
+
+.subscribe {
+    left: 6px;
+}
+}
+
+@media screen and (max-width:767px) {
+   .column-items {
+       margin-top: 54px;
+   }
+}
+
+
+@media screen and (max-width:518px) {
+    .category-filter-main {
+        padding: 0 11px 0 295px;
+    }
+
+    .category-filter-book {
+        padding: 0 11px 0 250px;
+    }
+}
+
+@media screen and (max-width:492px) {
+    .category-filter-book {
+        padding: 0 11px 0 246px;
+    }
+}
+
+@media screen and (max-width: 489px) {
+    .category-filter-book {
+        padding: 0 11px 0 218px;
+    }
+    .category-filter-main {
+        padding: 0 11px 0 264px;
+    }
+
+} 
